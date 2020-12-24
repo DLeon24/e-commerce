@@ -7,6 +7,7 @@ describe('Classes', () => {
       description: 'Soda',
       price: 5.5
     })
+    expect(foodModel.getFood()).toEqual(foodModel)
     expect(foodModel.getName()).toEqual('Coca Cola')
     expect(foodModel.getDescription()).toEqual('Soda')
     expect(foodModel.getPrice()).toBe(5.5)
